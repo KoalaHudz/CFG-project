@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About Wisteria Farm!</title>
+    <link rel="icon" type="image" href="/images/favicon.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Sacramento&display=swap" rel="stylesheet">
+    
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-light fixed-top" style="background-color: #936AC5">
+      <a class="navbar-brand" style="font-family: 'Sacramento', cursive;
+        font-size: 34px; font-weight: 700;
+        color: #3c1361" href="./index.html">Wisteria Farm Livery</a>
+
+      <div class="collapse navbar-collapse" id="navbar">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <main>
+      <div class="container" id="contact">
+        <h2 style="font-weight: bold; font-family: 'Sacramento', cursive">Contact Us</h2>
+        <div class="container">
+          <form action="action_page.html">
+            <h3 style="background: yellow">Thanks for contacting us! We'll get back to you soon.</h3>
+
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name">
+        
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name">
+
+            <label for="lname">Email</label>
+            <input type="text" id="email" name="email1" placeholder="yourname@email.com">
+
+            <label for="lname">Phone Number</label>
+            <input type="text" id="pnumber" name="phone" placeholder="Your phone number">
+        
+            <label for="reason">Reason for contact</label>
+            <select id="reason" name="reason">
+              <option value="null">Select Reason</option>
+              <option value="general">General Enquiry</option>
+              <option value="livery">Livery Enquiry</option>
+              <option value="booking">Booking Request</option>
+              <option value="feedback">Feedback</option>
+            </select>
+        
+            <label for="subject">Your Message</label>
+            <textarea id="subject" name="subject" placeholder="Tell us what you need!" style="height:100px"></textarea>
+        
+            <input type="submit" value="Submit">
+        
+          </form>
+        </div>
+        
+        
+        <h4 style="font-weight: bold; font-family: 'Sacramento', cursive">Where To Find Us</h4>
+        <p>
+          Access to Wisteria Farm is from the B2028 north of Lindfield, West Sussex. Our full postal address is:<br>
+          <br>
+        Wisteria Farm<br>
+        Park Lane<br>
+        Lindfield<br>
+        West Sussex<br>
+        RH16 2QY</p>
+        <p>
+         If approaching from Lindfield/Haywards Heath, you will need to take the right-hand turn on to Park Lane which is signposted towards Horsted Keynes. You will find us approximately half a mile along the road on your right.<br>
+         <br>
+         If you are approaching from Ardingly/Crawley, the turn into Park Lane will be too tight if you are towing a trailer or driving a horsebox. Instead, take the left turn onto Stonecross Lane, and then right onto Keysford Lane at the end. This will take you to the junction between Park Lane and Plummerden Lane; turn right onto Park Lane then you will find us on the left.
+        </p>
+        <div style="text-align:center"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2509.5137525935256!2d-0.0639716850088078!3d51.02513135367131!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9498e8940147b479!2zNTHCsDAxJzMwLjUiTiAwwrAwMyc0Mi40Ilc!5e0!3m2!1sen!2suk!4v1661015469441!5m2!1sen!2suk" width="600" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+      </div>
+
+      <footer>
+        <a href="https://twitter.com" target="_blank">
+          <span class="social-icon"><i class="fab fa-twitter"></i></span>
+        </a>
+
+        <a href="https://facebook.com" target="_blank">
+          <span class="social-icon"><i class="fab fa-facebook"></i></span>
+        </a>
+
+        <a href="https://instagram.com" target="_blank">
+          <span class="social-icon"><i class="fab fa-instagram"></i></span>
+        </a>
+      </footer>
+
+      <button class="btn btn-primary" onclick="scrollToTop()" id="go-top-button" title="Go to top">Top</button>
+
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="./js/java.js"></script>
+  </body>
+</html>
