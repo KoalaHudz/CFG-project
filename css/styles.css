@@ -190,3 +190,18 @@ input[type=submit]:hover {
   color: #936AC5;
   font-family: 'Permanent Marker', cursive;
 }
+
+.map-responsive{
+    overflow: hidden;
+    padding-botton: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.map-responsive iframe{
+    left:0;
+    right:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
